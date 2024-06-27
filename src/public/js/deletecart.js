@@ -134,7 +134,7 @@ if (purchase) {
         result.json().then((json) => {
           console.log(json);
           const tid = json.purchase._id;
-          window.location.replace(`http://localhost:3000/${tid}`)
+          window.location.replace(`https://pf-frontend-xzgv.onrender.com/${tid}`)
         });
       }
     });
